@@ -81,6 +81,7 @@ header .nav-bar ul li a.active{
     font-size: 32px;
 } 
 .home .content input{
+    /* max-width: 650px; */
     width: 50vw;
     border-radius: 10px;
     border: 1px solid black;
@@ -293,12 +294,18 @@ header .nav-bar ul li a.active{
       width: 100%;
     }
     .container {
-        max-width: 90%;
+        /* max-width: 90%; */
+    }
+    .home input{
+        width: 80%;
     }
   }
   
   /* Adjustments for smaller screens */
   @media screen and (max-width: 480px) {
+    .home input{
+        width: 70%;
+    }
     .footer .content .contact .input-box input {
       width: 100%;
     }
@@ -315,11 +322,6 @@ header .nav-bar ul li a.active{
         padding: 0 50px;
     }
 }
-/* @media (max-width: 1039px){
-    .footer{
-        text-align: center;
-    }
-} */
 @media (max-width: 1000px){
     header{
         padding: 0 30px;
@@ -369,12 +371,12 @@ header .nav-bar ul li a.active{
 }
 @media (max-width: 992px){
     .container{
-        max-width: 80%;
+        /* max-width: 80%; */
     }
 }
 @media (max-width: 576px){
     .container{
         max-width: 100%;
-        padding: 10px;
+        /* padding: 10px; */
     }
 }
